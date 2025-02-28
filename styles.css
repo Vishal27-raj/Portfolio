@@ -1,0 +1,41 @@
+        @import url('https://fonts.google.com/specimen/Lobster')
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+    width: 20vw;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main{
+    background-color: yellow;
+    width: 100vw;
+}
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: rgb(157, 179, 15);
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+}
+
+
+
